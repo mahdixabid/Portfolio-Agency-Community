@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Nunito&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Epilogue;
+    font-style: normal;
+}
+
+:root {
+    --primary: white;
+    --secondary: #391400;
+    --orange: #EF6C57;
+    --gray: rgba(255, 255, 255, 0.64);
+}
+
+body {
+    margin: auto;
+}
+
+nav {
+    margin: 30px auto auto;
+    max-width: 1440px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    background-image: url("./src/background.png");
+    min-height: 880px;
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: Epilogue;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.contact button {
+    font-family: Epilogue;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary);
+    background-color: transparent;
+    padding: 18px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.294);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.Bheader {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.leftheader {
+    max-width: 50%;
+    padding-top: 125px;
+}
+
+.rightheader {
+    max-width: 50%;
+    padding-top: 120px;
+}
+
+.p1 {
+    padding-bottom: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.p2 {
+    padding-bottom: 24px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: var(--primary);
+}
+
+.p3 {
+    padding-bottom: 34px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--gray);
+}
+
+.p4 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--gray);
+}
+
+.p4 span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--primary);
+}
+
+.Bheader-btns {
+    display: flex;
+    gap: 46px;
+}
+
+.B-Btn1 {
+    background: #EF6D58;
+    border-radius: 6px;
+    padding: 18px 24px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary);
+    border: none;
+}
+
+.B-Btn2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--primary);
+    background-color: transparent;
+    border: none;
+}
+
+.userProfile1 {
+    padding-top: 108px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
