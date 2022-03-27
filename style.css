@@ -693,3 +693,214 @@ hr.bar1 {
     padding-top: 140px;
     margin: auto;
 }
+
+.s2box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+}
+
+.s2boxT {
+    padding-top: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.s2boxbody {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    max-width: 294px;
+}
+
+.s2boxfooter {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.s2box div:nth-of-type(1) {
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 6px 0px 0px 6px;
+    border-right: none;
+    padding: 48px 48px 52px 48px;
+}
+
+.s2box div:nth-of-type(2) {
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-right: none;
+    padding: 48px 48px 52px 48px;
+}
+
+.s2box div:nth-of-type(3) {
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 0px 6px 6px 0px;
+    padding: 48px 48px 52px 48px;
+}
+
+.sboxborderimg {
+    width: 80px;
+    height: 80px;
+    background: #EF6C57;
+    border: none;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio {
+    background-color: #28293E;
+    min-height: 1800px;
+}
+
+.Latest-Work {
+    margin: auto;
+}
+
+.p22 {
+    padding-top: 92px;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+.p23 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.galleryT p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    position: relative;
+}
+
+.galleryT span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.64);
+    position: absolute;
+    top: -10px;
+    right: -15px;
+}
+
+.galleryT {
+    padding-top: 45px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    justify-content: center;
+}
+
+.galerygrid {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    margin: auto;
+    padding-bottom: 65px;
+}
+
+.col1,
+.col2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 30px;
+}
+
+.galerygrid .grid1 {
+    background-image: url(./src/Bitmap1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 256px 318px 51px 48px;
+}
+
+.galerygrid .grid2 {
+    background-image: url(./src/Bitmap2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 256px 424px 51px 48px;
+}
+
+.galerygrid .grid3 {
+    background-image: url(./src/Bitmap3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 256px 378px 51px 48px;
+}
+
+.galerygrid .grid4 {
+    background-image: url(./src/Bitmap4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 256px 261px 51px 48px;
+}
+
+.galerygrid .p24 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 23px;
+    max-width: 116px;
+}
+
+.galerygrid .p25 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.p26 {
+    margin: auto;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 18px 30px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    box-sizing: border-box;
+    border-radius: 6px;
+    max-width: 170px;
+}
