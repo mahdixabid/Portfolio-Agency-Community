@@ -764,7 +764,6 @@ hr.bar1 {
 
 .Portfolio {
     background-color: #28293E;
-    min-height: 10800px;
 }
 
 .Latest-Work {
@@ -1102,4 +1101,234 @@ span {
     width: 100%;
     height: 1px;
     margin-bottom: 40px;
+}
+
+.p37 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+.p38 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    max-width: 531px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-top: 65px;
+}
+
+.OurTeam {
+    margin: auto;
+    max-width: 1184px;
+    position: relative;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Sbox {
+    position: relative;
+    padding: 0 15px;
+}
+
+.userImg {
+    width: 270px;
+    height: 272px;
+    border: 1px solid #3A3C56;
+    position: relative;
+}
+
+.userImg img {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.TopSlider {
+    max-width: 1173px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img.right-arr {
+    transform: rotate(182deg);
+}
+
+.SliderRemote {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 8px;
+}
+
+.dots {
+    margin: auto;
+    padding-top: 55px;
+}
+
+.dots img {
+    padding: 0 10px;
+}
+
+.arrow {
+    border: 1px #ffffff52 solid;
+    border-radius: 50%;
+    padding: 10px 11px;
+}
+
+.founder {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 180px 0;
+}
+
+.p39 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    padding-bottom: 33px;
+}
+
+.p40 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+}
+
+.p41 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.p42 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.fouR {
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featuresB {
+    background-color: RGB(253, 240, 233);
+    padding-top: 124px;
+}
+
+.p43 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    padding-bottom: 20px;
+}
+
+.p44 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #391400;
+}
+
+.userProfile {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.p45 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    max-width: 490px;
+    padding-bottom: 35px;
+}
+
+.p46 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.p47 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.stars {
+    padding-bottom: 35px;
+}
+
+.clientsProfiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile1 {
+    padding: 48px;
+    background: #FFFFFF;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 6px 0px 0px 0px;
+}
+
+.profile2 {
+    display: flex;
+    padding: 48px 48px 0 48px;
+    flex-direction: column;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 0px 6px 0px 0px;
+    height: 336px;
 }
