@@ -144,6 +144,7 @@ header {
     font-size: 16px;
     line-height: 32px;
     color: var(--primary);
+    letter-spacing: -0.5px;
 }
 
 .Bheader-btns {
@@ -1724,4 +1725,244 @@ img.right-arr {
     text-align: right;
     color: #391400;
     padding-right: 20px;
+}
+
+.p71 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(57, 20, 0, 0.64);
+    padding-top: 70px;
+}
+
+.p71 span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+    letter-spacing: 0px;
+    padding-left: 7px;
+}
+
+.Our-Blog {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.clients {
+    padding-bottom: 500px;
+}
+
+.ourblogB1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p72 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+.p73 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #391400;
+    max-width: 318px;
+}
+
+.p74 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #391400;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    border-radius: 6px;
+    width: 170px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BlogBoxi img {
+    width: 370px;
+    height: 224px;
+}
+
+.BlogBoxi p {
+    padding: 7.5px 0;
+}
+
+.BlogBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 65px;
+    border-bottom: 1px solid #F3D1BF;
+}
+
+.p75 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.p76 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+    max-width: 338px;
+}
+
+.p77 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin-bottom: 70px;
+}
+
+.Contact-Us {
+    padding-top: 60px;
+}
+
+.conTop {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conTop div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.conTop input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    background: #FFFFFF;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 370px;
+    height: 48px;
+    text-indent: 15px;
+}
+
+.p78 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #391400;
+}
+
+.p79 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #391400;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    border-radius: 6px;
+    padding: 18px 45px;
+}
+
+.map {
+    margin-top: 115px;
+    min-height: 720px;
+    background-image: url(./src/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.mapBox {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 57px 48px 48px 48px;
+    max-width: 470px;
+    min-height: 464px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 135px;
+}
+
+.p80 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+    padding-bottom: 25px;
+}
+
+.mapBox input {
+    background: #FFFFFF;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    Width: 374px;
+    min-Height: 48px;
+    text-indent: 15px;
+    margin-bottom: 25px;
+}
+
+.mapBox input:nth-of-type(3) {
+    height: 96px;
+}
+
+.p81 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #EF6D58;
+    border-radius: 6px;
+    padding: 18px 30px;
+    max-width: 154px;
+    max-height: 48px;
+    float: right;
+}
+
+img.pin {
+    position: absolute;
+    right: 25%;
+    top: 55%;
 }
