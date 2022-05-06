@@ -2198,9 +2198,6 @@ footer ul li {
     }
 }
 
-
-/*1223*/
-
 @media (max-width:1223px) {
     .galerygrid {
         flex-wrap: wrap;
