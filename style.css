@@ -3,6 +3,17 @@ html {
     scroll-behavior: smooth;
 }
 
+html,
+body,
+button,
+div,
+p,
+h1,
+img,
+input {
+    -webkit-tap-highlight-color: transparent;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -83,6 +94,87 @@ header {
     max-width: 1440px;
     justify-content: space-between;
 }
+
+
+/* Mobile Menu start */
+
+.contact {
+    position: relative;
+}
+
+.MobiMenu {
+    position: fixed;
+    background-color: #d66555;
+    width: 67%;
+    height: 100%;
+    right: -100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 999;
+    padding: 60px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.MobiMenu2 {
+    position: fixed;
+    background-color: #d66555;
+    width: 67%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 999;
+    padding: 60px;
+    overflow: hidden;
+    transition: 0.4s;
+    animation-name: menu;
+    animation-duration: 1s;
+}
+
+@keyframes menu {
+    0% {
+        border-bottom-left-radius: 100%;
+    }
+    100% {
+        border-bottom-left-radius: 0%;
+    }
+}
+
+.MobiMenu2 a,
+.MobiMenu a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.close {
+    position: absolute;
+    top: -60px;
+    left: -75px;
+    font-size: 37px;
+    background-color: #ffffff;
+    font-family: cursive;
+    padding: 32px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 50%;
+}
+
+
+/* Mobile Menu end */
 
 .leftheader {
     /* max-width: 50%; */
@@ -1881,7 +1973,9 @@ img.right-arr {
 .conTop div {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .conTop input {
@@ -2252,19 +2346,17 @@ footer ul li {
         align-items: center;
         text-align: center;
     }
-}
-
-
-/* 1170px */
-
-@media (max-width: 1182px) {
-    .grid1,
-    .grid2,
-    .grid3,
-    .grid4 {
-        width: 670px !important;
-        height: 410px !important;
-        background-size: cover !important;
+    .mapBox input {
+        width: 90%;
+    }
+    .mapBox {
+        width: 100%;
+    }
+    .BlogBoxi img {
+        width: 100%;
+    }
+    .ourblogB1 {
+        flex-wrap: wrap;
     }
 }
 
@@ -2520,5 +2612,10 @@ footer ul li {
         width: 85%;
         margin: auto;
         display: flex;
+    }
+    .p89 {
+        order: 2;
+        width: 100%;
+        text-align: center;
     }
 }
