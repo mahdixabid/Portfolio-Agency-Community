@@ -272,10 +272,28 @@ header {
     gap: 16px;
 }
 
+.contact button:hover {
+    background-color: #3A3C56;
+    cursor: pointer;
+}
+
 .headerimg {
     position: relative;
     max-width: 570px;
     width: 100%;
+    animation-name: UpDown;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes UpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
 }
 
 main {
@@ -960,6 +978,7 @@ hr.bar1 {
     width: 482px;
     height: 410px;
     border-radius: 0 0 8px 0;
+    overflow: hidden;
 }
 
 .galerygrid .grid2 {
@@ -1032,6 +1051,44 @@ hr.bar1 {
     box-sizing: border-box;
     border-radius: 6px;
     max-width: 170px;
+}
+
+.card {
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.card-out {
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    animation-name: zoom-out;
+}
+
+.gridglobal:hover {
+    animation-name: zoom;
+    animation: zoom 1s infinite alternate;
+}
+
+@keyframes zoom-out {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .GetStarted {
@@ -1743,7 +1800,7 @@ img.right-arr {
     color: #391400;
 }
 
-.faqBox {
+.faqHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1753,7 +1810,11 @@ img.right-arr {
     justify-content: space-between;
 }
 
-.faqBox img {
+.faqcontent {
+    max-width: 50%;
+}
+
+.faqHeader img {
     padding-left: 30px;
 }
 
@@ -2366,6 +2427,8 @@ footer ul li {
 @media (max-width:1223px) {
     .conTop {
         flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
     .slider {
         flex-wrap: wrap;
@@ -2414,6 +2477,11 @@ footer ul li {
     }
     .ourblogB1 {
         flex-wrap: wrap;
+    }
+    .mapBox {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50% !important;
     }
 }
 
