@@ -70,6 +70,29 @@ header {
     line-height: 32px;
     text-align: center;
     color: var(--primary);
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.menu a::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--orange);
+    position: fixed;
+    top: 0;
+    right: 100%;
+    /* transform: translateX(-50%); */
+}
+
+.menu a:hover {
+    color: var(--orange);
+}
+
+.menu a:hover::after {
+    right: 0;
+    transition: 0.4s;
 }
 
 .contact button {
@@ -306,6 +329,16 @@ main {
 
 img.companies {
     width: 100%;
+}
+
+img.img-company:hover {
+    filter: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+img.img-company {
+    filter: grayscale(1);
 }
 
 .contact img {
