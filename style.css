@@ -50,10 +50,18 @@ header {
     width: 100%;
     margin-top: -31px;
     padding: 45px;
+    filter: drop-shadow(0 black);
+    transition: 0.2s;
 }
 
 .logo {
     position: relative;
+}
+
+.logo img:hover {
+    filter: drop-shadow(2px 4px 6px black);
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .menu {
@@ -83,7 +91,6 @@ header {
     position: fixed;
     top: 0;
     right: 100%;
-    /* transform: translateX(-50%); */
 }
 
 .menu a:hover {
@@ -102,12 +109,21 @@ header {
     line-height: 14px;
     text-align: center;
     text-transform: uppercase;
-    color: var(--primary);
+    color: white;
     background-color: transparent;
     padding: 18px 35px;
-    border: 1px solid rgba(255, 255, 255, 0.294);
+    border: 1px solid rgb(113 115 148);
     box-sizing: border-box;
     border-radius: 6px;
+    background-size: 220% 208%;
+    background-image: linear-gradient(to top, #ef6d58 48%, transparent 32%);
+    transition: background-position 300ms, color 306ms ease, border-color 300ms ease;
+}
+
+.contact button:hover {
+    background-image: linear-gradient(to top, #ef6d58 51%, transparent 50%);
+    background-position: 0 100%;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
 }
 
 .Bheader {
@@ -221,14 +237,43 @@ header {
 
 .p2 {
     position: relative;
+    font-size: 72px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /* transform: translateY(-50%); */
     max-width: 513px;
     padding-bottom: 24px;
     font-weight: 800;
-    font-size: 72px;
     line-height: 80px;
     letter-spacing: -2px;
     z-index: 2;
     color: var(--primary);
+}
+
+
+/* Animation */
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
 
 .star {
@@ -267,7 +312,6 @@ header {
 }
 
 .B-Btn1 {
-    background: #EF6D58;
     border-radius: 6px;
     padding: 18px 24px;
     font-weight: 900;
@@ -277,6 +321,18 @@ header {
     text-transform: uppercase;
     color: var(--primary);
     border: none;
+    background-size: 220% 208%;
+    background-color: #ef6d58;
+    background-image: linear-gradient(to top, #ef6d58 48%, transparent 32%);
+    transition: background-position 300ms, color 306ms ease, border-color 300ms ease;
+}
+
+.B-Btn1:hover {
+    background-image: linear-gradient(to top, #ffffff 51%, transparent 50%);
+    background-position: 0 100%;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    color: black;
+    cursor: pointer;
 }
 
 .B-Btn2 {
@@ -286,6 +342,13 @@ header {
     color: var(--primary);
     background-color: transparent;
     border: none;
+    padding: 0 20px;
+}
+
+.B-Btn2:hover {
+    color: var(--orange);
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .userProfile1 {
@@ -587,14 +650,22 @@ hr.bar1 {
     background-image: url(./src/Bitmap.png);
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.playvideo img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
+.playvideo img:hover {
+    transform: rotate(90deg);
+}
+
+.playvideo:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.playvideo:hover img {
+    transform: rotate(90deg);
 }
 
 .p15 {
