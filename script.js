@@ -8,3 +8,7 @@ close.addEventListener('click', function() {
     MobiMenu.className = "MobiMenu";
 
 })
+let card = document.querySelector('.card')
+card.addEventListener('mouseout', function() {
+    card.classList.add('card-out');
+})
