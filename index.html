@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Portfolio Agency Community</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
 </head>
 
 <body>
@@ -254,7 +257,7 @@
                 </div>
                 <div class="galerygrid">
                     <div class="col1">
-                        <div class="card">
+                        <div class="card1">
                             <div class="grid1 gridglobal">
                                 <div class="grid-items">
                                     <p class="p24">Design</p>
@@ -262,7 +265,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card2">
                             <div class="grid2 gridglobal">
                                 <div class="grid-items">
                                     <p class="p24">Branding</p>
@@ -272,7 +275,7 @@
                         </div>
                     </div>
                     <div class="col2">
-                        <div class="card">
+                        <div class="card3">
                             <div class="grid3 gridglobal">
                                 <div class="grid-items">
                                     <p class="p24">Illustration</p>
@@ -280,7 +283,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card4">
                             <div class="grid4 gridglobal">
                                 <div class="grid-items">
                                     <p class="p24">Motion</p>
@@ -371,24 +374,65 @@
                         </div>
                     </div>
                 </div>
-                <div class="slider">
-                    <div class="Sbox">
-                        <div class="userImg"><img src="./src/user4.png"></div>
-                    </div>
-                    <div class="Sbox">
-                        <div class="userImg"><img src="./src/user5.png"></div>
-                    </div>
-                    <div class="Sbox">
-                        <div class="userImg"><img src="./src/user6.png"></div>
-                    </div>
-                    <!-- <div class="Sbox">
-                        <div class="userImg"><img src="./src/user7.png"></div>
-                    </div> -->
-                </div>
-                <div class="dots">
-                    <img src="./src/Oval.png">
-                    <img src="./src/Oval2.png">
-                    <img src="./src/Oval2.png">
+                <div class="Users-Slider">
+                    <section>
+                        <div class="swiper mySwiper container">
+                            <div class="swiper-wrapper content">
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user4.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user5.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user6.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user7.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user7.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user7.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="Sbox">
+                                            <div class="userImg"><img src="./src/user7.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </section>
                 </div>
                 <div class="founder">
                     <div class="fouL">
@@ -555,9 +599,6 @@
                         <div class="faqHeader">
                             <p class="p66">A digital agency is a business</p> <img id="readmore" src="./src/down.png">
 
-                        </div>
-                        <div class="faqcontent">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quia molestias. Nemo, officiis. Ratione dicta totam quod quos asperiores laboriosam ipsa, illo esse, quo possimus enim atque dolorum officiis minus.
                         </div>
                     </div>
 
@@ -736,8 +777,11 @@
             </footer>
         </div>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
-    <!-- <script src="./SmoothScroll-off.js"></script> -->
+    <script src="./SmoothScroll-off.js"></script>
 </body>
 
 </html>
